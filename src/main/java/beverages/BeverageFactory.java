@@ -2,15 +2,15 @@ package beverages;
 
 public class BeverageFactory {
     public Beverage coffee() {
-        return new Drink(new Coffee());
+        return new Coffee();
     }
 
     public Beverage tea() {
-        return new Drink(new Tea());
+        return new Tea();
     }
 
     public Beverage hotChocolate() {
-        return new Drink(new HotChocolate());
+        return new HotChocolate();
     }
 
     public Beverage teaWithMilk() {
@@ -26,6 +26,6 @@ public class BeverageFactory {
     }
 
     public Beverage hotChocolateWithCream() {
-        return new HotChocolateWithCream();
+        return new HotChocolate(new WithCream());
     }
 }
