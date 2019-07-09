@@ -6,11 +6,11 @@ public class BeverageFactory {
     }
 
     public Beverage tea() {
-        return new Tea();
+        return new Drink(new Tea());
     }
 
     public Beverage hotChocolate() {
-        return new HotChocolate();
+        return new Drink(new HotChocolate());
     }
 
     public Beverage teaWithMilk() {
