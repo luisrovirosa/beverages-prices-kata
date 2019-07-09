@@ -22,7 +22,7 @@ public class BeverageFactory {
     }
 
     public Beverage coffeeWithMilkAndCream() {
-        return new CoffeeWithMilkAndCream();
+        return new Coffee(new WithMilk(new WithCream()));
     }
 
     public Beverage hotChocolateWithCream() {
