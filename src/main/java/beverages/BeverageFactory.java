@@ -8,4 +8,8 @@ public class BeverageFactory {
     public Beverage tea() {
         return new Tea();
     }
+
+    public Beverage hotChocolate() {
+        return new HotChocolate();
+    }
 }

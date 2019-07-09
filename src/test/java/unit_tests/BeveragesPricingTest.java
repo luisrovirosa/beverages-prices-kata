@@ -22,7 +22,7 @@ public class BeveragesPricingTest {
 
     @Test
     public void computes_hot_chocolate_price() {
-        Beverage hotChocolate = new HotChocolate();
+        Beverage hotChocolate = new BeverageFactory().hotChocolate();
         assertThat(hotChocolate.price(), is(closeTo(1.45, 0.001)));
     }
 
