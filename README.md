@@ -1,8 +1,16 @@
+# Beverages prices kata
 ## Goal
-This code computes the prices of the beverages served in our coffe house.
+Practice the refactor and avoid parallel hierarchies of objects.
 
-We'd like you to add an optional cinnamon supplement that costs 0.05€
-to all our existing catalog of beverages.
+## Solutions
+I've already solved in 3 different ways:
+- Composite pattern
+- Variadic arguments
+- More Semantic way
 
-### Tips:
-You might want to refactor the code a bit first.
+Take a look to the branches.
+
+## Author
+Kata solved by [Luis Rovirosa Mairlot](https://twitter.com/luisrovirosa).
+
+Kata author [Manuel Rivero](https://twitter.com/trikitrok). 
