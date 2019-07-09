@@ -11,6 +11,10 @@ public class Drink implements Beverage {
         this.drink = drink;
     }
 
+    public static Drink with(Beverage beverage){
+        return new Drink(beverage);
+    }
+
     @Override
     final public double price() {
         return drink.price() + drinkPrice();

@@ -1,5 +1,7 @@
 package beverages;
 
+import static beverages.Drink.with;
+
 public class BeverageFactory {
     public Beverage coffee() {
         return new Coffee();
@@ -22,10 +24,10 @@ public class BeverageFactory {
     }
 
     public Beverage coffeeWithMilkAndCream() {
-        return new Coffee(new WithMilk(new WithCream()));
+        return new Coffee(new WithMilk(with(new WithCream())));
     }
 
     public Beverage hotChocolateWithCream() {
-        return new HotChocolate(new WithCream());
+        return new HotChocolate(with(new WithCream()));
     }
 }
