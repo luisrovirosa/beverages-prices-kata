@@ -4,7 +4,7 @@ public class Drink implements Beverage {
     protected Beverage drink;
 
     public Drink() {
-        drink = new NoExtra();
+        this(new NoExtra());
     }
 
     public Drink(Beverage drink) {
