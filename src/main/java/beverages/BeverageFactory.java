@@ -12,4 +12,8 @@ public class BeverageFactory {
     public Beverage hotChocolate() {
         return new HotChocolate();
     }
+
+    public Beverage teaWithMilk() {
+        return new TeaWithMilk();
+    }
 }

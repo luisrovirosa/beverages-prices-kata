@@ -28,7 +28,7 @@ public class BeveragesPricingTest {
 
     @Test
     public void computes_tea_with_milk_price() {
-        Tea teaWithMilk = new TeaWithMilk();
+        Beverage teaWithMilk = new BeverageFactory().teaWithMilk();
         assertThat(teaWithMilk.price(), is(closeTo(1.60, 0.001)));
     }
 
