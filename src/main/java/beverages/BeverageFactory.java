@@ -24,4 +24,8 @@ public class BeverageFactory {
     public Beverage coffeeWithMilkAndCream() {
         return new CoffeeWithMilkAndCream();
     }
+
+    public Beverage hotChocolateWithCream() {
+        return new HotChocolateWithCream();
+    }
 }
