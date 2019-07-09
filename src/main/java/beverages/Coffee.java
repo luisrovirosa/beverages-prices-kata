@@ -10,7 +10,7 @@ public class Coffee extends Drink {
     }
 
     @Override
-    public double price() {
-        return drink.price() + 1.2;
+    protected double drinkPrice() {
+        return 1.2;
     }
 }

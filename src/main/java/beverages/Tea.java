@@ -10,7 +10,7 @@ public class Tea extends Drink {
     }
 
     @Override
-    public double price() {
-        return drink.price() + 1.5;
+    protected double drinkPrice() {
+        return 1.5;
     }
 }

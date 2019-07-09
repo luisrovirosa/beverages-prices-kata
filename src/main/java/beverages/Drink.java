@@ -12,7 +12,11 @@ public class Drink implements Beverage {
     }
 
     @Override
-    public double price() {
-        return drink.price();
+    final public double price() {
+        return drink.price() + drinkPrice();
+    }
+
+    protected double drinkPrice() {
+        return 0.0;
     }
 }

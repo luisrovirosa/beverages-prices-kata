@@ -10,7 +10,7 @@ public class WithMilk extends Drink {
     }
 
     @Override
-    public double price() {
-        return drink.price() + 0.10;
+    protected double drinkPrice() {
+        return 0.10;
     }
 }
