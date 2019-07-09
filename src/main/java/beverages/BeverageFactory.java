@@ -2,7 +2,7 @@ package beverages;
 
 public class BeverageFactory {
     public Beverage coffee() {
-        return new Coffee();
+        return new Drink(new Coffee());
     }
 
     public Beverage tea() {
