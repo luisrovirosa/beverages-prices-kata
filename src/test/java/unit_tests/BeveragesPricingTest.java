@@ -34,7 +34,7 @@ public class BeveragesPricingTest {
 
     @Test
     public void computes_coffee_with_milk_price() {
-        Coffee coffeeWithMilk = new CoffeeWithMilk();
+        Beverage coffeeWithMilk = new BeverageFactory().coffeeWithMilk();
         assertThat(coffeeWithMilk.price(), is(closeTo(1.30, 0.001)));
     }
 
