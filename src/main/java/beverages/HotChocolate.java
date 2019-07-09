@@ -3,6 +3,6 @@ package beverages;
 public class HotChocolate extends Drink {
     @Override
     public double price() {
-        return 1.45;
+        return super.price() + 1.45;
     }
 }

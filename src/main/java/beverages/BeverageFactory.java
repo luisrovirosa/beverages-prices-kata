@@ -14,11 +14,11 @@ public class BeverageFactory {
     }
 
     public Beverage teaWithMilk() {
-        return new TeaWithMilk();
+        return new Tea().with(new Milk());
     }
 
     public Beverage coffeeWithMilk() {
-        return new CoffeeWithMilk();
+        return new Coffee().with(new Milk());
     }
 
     public Beverage coffeeWithMilkAndCream() {
