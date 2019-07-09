@@ -1,4 +1,7 @@
-package beverages;
+package beverages.drink;
+
+import beverages.Beverage;
+import beverages.extra.Extra;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package beverages;
+package beverages.drink;
 
 public class HotChocolate extends Drink {
     @Override

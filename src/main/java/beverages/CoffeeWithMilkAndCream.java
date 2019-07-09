@@ -1,5 +1,7 @@
 package beverages;
 
+import beverages.drink.Coffee;
+
 public class CoffeeWithMilkAndCream extends Coffee {
     @Override
     public double price() {

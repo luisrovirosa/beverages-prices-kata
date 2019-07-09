@@ -1,5 +1,11 @@
 package beverages;
 
+import beverages.drink.Coffee;
+import beverages.drink.HotChocolate;
+import beverages.drink.Tea;
+import beverages.extra.Cream;
+import beverages.extra.Milk;
+
 public class BeverageFactory {
     public Beverage coffee() {
         return new Coffee();

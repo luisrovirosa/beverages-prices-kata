@@ -1,4 +1,4 @@
-package beverages;
+package beverages.extra;
 
 public class Milk implements Extra {
     @Override
