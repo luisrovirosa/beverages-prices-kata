@@ -1,7 +1,7 @@
 package beverages;
 
-public class NoDrink implements Beverage {
-    public NoDrink() {
+public class NoExtra implements Beverage {
+    public NoExtra() {
     }
 
     @Override
