@@ -1,7 +1,7 @@
 package beverages;
 
 public class Drink implements Beverage {
-    private Beverage drink;
+    protected Beverage drink;
 
     public Drink() {
         drink = new NoDrink();
