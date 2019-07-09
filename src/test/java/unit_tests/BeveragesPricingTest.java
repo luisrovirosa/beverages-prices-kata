@@ -16,7 +16,7 @@ public class BeveragesPricingTest {
 
     @Test
     public void computes_tea_price() {
-        Beverage tea = new Tea();
+        Beverage tea = new BeverageFactory().tea();
         assertThat(tea.price(), is(closeTo(1.50, 0.001)));
     }
 
