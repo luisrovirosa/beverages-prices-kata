@@ -4,9 +4,9 @@ Practice the refactor and avoid parallel hierarchies of objects.
 
 ## Solutions
 I've already solved in 3 different ways:
-- [Composite pattern](https://github.com/luisrovirosa/beverages-prices-kata/tree/composite)
-- [Variadic arguments](https://github.com/luisrovirosa/beverages-prices-kata/tree/variadic)
-- [More Semantic way](https://github.com/luisrovirosa/beverages-prices-kata/tree/semantic)
+- [Decorator pattern](https://github.com/luisrovirosa/beverages-prices-kata/tree/decorator)
+- [Composite + Variadic arguments](https://github.com/luisrovirosa/beverages-prices-kata/tree/variadic)
+- [Composite + More Semantic way](https://github.com/luisrovirosa/beverages-prices-kata/tree/semantic)
 
 Take a look to the branches.
 
